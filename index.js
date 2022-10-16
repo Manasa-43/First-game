@@ -11,13 +11,25 @@ function play(qn,ans){
 
 questionOne = {
   question: "Who is my favorite superhero?",
-  answer: "Dhruv"
+  answer: "Naruto"
 }
 questionTwo = {
   question: "Which is my favorite sad song?",
-  answer: "Channa Meraya",
+  answer: "Agar tum sath ho",
 }
-let questions=[questionOne,questionTwo]
+questionThree = {
+  question: "What is my favourite food?",
+  answer: "Panipuri",
+}
+questionFour = {
+  question: "Who is my bestfriend?",
+  answer: "Anirudh",
+}
+questionFive = {
+  question: "Who do I hate the most?",
+  answer: "Suresh"
+}
+let questions=[questionOne,questionTwo,questionThree,questionFour,questionFive]
 
 for(let i=0; i< questions.length; i++){
 var quiz = questions[i] 
